@@ -1,0 +1,15 @@
+import random = It's used to import the random function
+type = this check the type of data you're using
+eg
+name = "James"
+print(type(name))
+
+f-string
+print (f"My name is {James}")
+
+the modulo % : It gives you the remainder of a division. eg. 7 % 2 = 1
+
+
+random.choice = it's use to get random words or letters from the given list or variables
+random.shuffle = this shuffle a list of items
+.title() = it capitalize the 1st word of the sentence.
