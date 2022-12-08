@@ -5,8 +5,8 @@ Creating a Dictionary.
 
 def add_word():
     # Set a flag to indicate that polling is active.
-    words_list = {}
-    word_active = True
+    words_list = {}  # Create an empty dictionary
+    word_active = True  # Set a flag to True
     while word_active:
         print("Input a word and then define it and it'll be store in the dictionary. ")
         word = input("Input a Word: ")
