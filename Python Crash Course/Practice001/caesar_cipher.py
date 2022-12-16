@@ -1,4 +1,5 @@
 """
+###----------------------ENCRYPT CODE INSTRUCTION-------------------
 TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
 TODO-2: Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount
 and print the encrypted text.
@@ -15,7 +16,7 @@ and print the encrypted text.
 TODO-3: Call the encrypt function and pass in the user inputs.
 #  You should be able to test the code and encrypt a message.
 
-###----------------------DECRYPT TEXT-------------------
+###----------------------DECRYPT CODE INSTRUCTION-------------------
 TODO-1: Create a different function called 'decrypt' that takes the 'text' and 'shift' as inputs.
 TODO-2: Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.
   #e.g.
