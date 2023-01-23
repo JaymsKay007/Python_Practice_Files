@@ -6,6 +6,9 @@ as the calling statement provides. One example involves building user profiles: 
 about a user, but you’re not sure what kind of information you’ll receive. The function build_profile() in the
 following example always takes in a first and last name, but it accepts an arbitrary number of keyword arguments
 as well:
+
+The double asterisks before the parameter **user_info cause Python to create a dictionary called user_info containing
+all the extra name-value pairs the function receives.
 """
 
 
