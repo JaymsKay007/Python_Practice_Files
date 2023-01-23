@@ -18,7 +18,8 @@ TODO-3: Call the encrypt function and pass in the user inputs.
 
 ###----------------------DECRYPT CODE INSTRUCTION-------------------
 TODO-1: Create a different function called 'decrypt' that takes the 'text' and 'shift' as inputs.
-TODO-2: Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.
+TODO-2: Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet
+by the shift amount and print the decrypted text.
   #e.g.
   #cipher_text = "mjqqt"
   #shift = 5
@@ -26,7 +27,7 @@ TODO-2: Inside the 'decrypt' function, shift each letter of the 'text' *backward
   #print output: "The decoded text is hello"
 
 #TODO-3: Check if the user wanted to encrypt or decrypt the message by checking the 'direction' variable.
-Then call the correct function based on that 'drection' variable.
+Then call the correct function based on that 'direction' variable.
 You should be able to test the code to encrypt *AND* decrypt a message.
 """
 
@@ -73,3 +74,30 @@ elif direction == "decode":
     decrypt(cypher_text=text, shift_amount=shift)
 elif direction != "encode" or "decode":
     print("Wrong 'input', type 'encode' or 'decode'.")
+
+# code_direction()
+#
+# run_again = True
+# repeat = input("Do you want to run the code again? 'yes / no': ")
+# if repeat == "yes":
+#     code_direction()
+# else:
+#     run_again = False
+
+ 
+"""
+# MAKING OUR CODE SHORTER
+def caesar(start_text, shift_amount, cypher_direction):
+    end_text = ""
+    if cypher_direction == "decode":
+        shift_amount *= -1
+    for letter in start_text:
+        position = alphabet.index(letter)
+        new_position = position + shift_amount
+        end_text += alphabet[new_position]
+    print(f"Here's the {direction}d result: {end_text}")
+
+
+caesar(start_text=text, shift_amount=shift, cypher_direction=direction)
+
+"""
