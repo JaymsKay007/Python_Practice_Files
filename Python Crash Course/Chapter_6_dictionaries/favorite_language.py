@@ -15,6 +15,7 @@ glossary = {
     "rashida": " likes coding in C.",
     "mohamed": " likes coding in ruby.",
 }
+
 # for _ in glossary:
 #     print(f"{_.title()}:\n", glossary[_])
 
