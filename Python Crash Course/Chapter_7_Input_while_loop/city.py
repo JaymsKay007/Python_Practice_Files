@@ -1,5 +1,7 @@
-prompt = "\nPlease enter the name of a city you have visited: "
-prompt += "\n(Enter 'quit' to end the program.) "
+prompt = (
+    "\nPlease enter the name of a city you have visited: "
+    + "\n(Enter 'quit' to end the program.) "
+)
 while True:
     city = input(prompt)
 

@@ -7,24 +7,16 @@ for number in range(1,101):
         print("Buzz")
     else:
         print(number)
-        
+
 password_list = []
-for char in range(1, nr_letters + 1):
+for _ in range(1, nr_letters + 1):
     password_list += random.choice(letters)
 
-for char in range(1, nr_numbers + 1):
+for _ in range(1, nr_numbers + 1):
     password_list += random.choice(numbers)
 
-for char in range(1, nr_symbols + 1):
+for _ in range(1, nr_symbols + 1):
     password_list += random.choice(symbols)
 
-# print(password_list)
-# random.shuffle(password_list)
-# print(password_list)
-
-# Make the password into a string
-password = ""
-for char in password_list:
-    password += char
-
+password = "".join(password_list)
 print(f"Your password is: {password}")

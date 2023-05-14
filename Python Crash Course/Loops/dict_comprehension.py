@@ -1,7 +1,5 @@
 # DICTIONARY COMPREHENSION
-squares = {}
-for x in range(6):
-    squares[x] = x * x
+squares = {x: x * x for x in range(6)}
 print(squares)
 
 # OR

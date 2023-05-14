@@ -1,3 +1,3 @@
 hobbies = ["music", "coding", "sport"]
-for i in range(len(hobbies)):
-    print(f"I enjoyed {hobbies[i]}...")
+for hobby in hobbies:
+    print(f"I enjoyed {hobby}...")

@@ -72,7 +72,7 @@ if direction == "encode":
     encrypt(plain_text=text, shift_amount=shift)
 elif direction == "decode":
     decrypt(cypher_text=text, shift_amount=shift)
-elif direction != "encode" or "decode":
+else:
     print("Wrong 'input', type 'encode' or 'decode'.")
 
 # code_direction()
@@ -84,7 +84,7 @@ elif direction != "encode" or "decode":
 # else:
 #     run_again = False
 
- 
+
 """
 # MAKING OUR CODE SHORTER
 def caesar(start_text, shift_amount, cypher_direction):

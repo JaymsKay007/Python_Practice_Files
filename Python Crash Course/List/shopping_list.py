@@ -1,12 +1,20 @@
-shopping_list = ["Apples", "Orange", "Mango", "Pine Apples", "Lemon", "Gravy", "Soup", "Chicken"]
 # print(shopping_list[-1])
 
 position = [1, 2, 3, 4, 5, [6, 7, 8, 9]]
 print(position[5][2])  # Find the position of 8
 print(position[-1][-2])  # Find the position of 8
 
-# ADDING TO LIST
-shopping_list.append("Bread")
+shopping_list = [
+    "Apples",
+    "Orange",
+    "Mango",
+    "Pine Apples",
+    "Lemon",
+    "Gravy",
+    "Soup",
+    "Chicken",
+    "Bread",
+]
 print(shopping_list)
 # SLICING LIST
 print(shopping_list[2:-3])
@@ -25,7 +33,7 @@ number.sort(reverse=True)
 print(number)
 
 # MODIFYING A LIST
-shopping_list[0:3] = ["Phone", "Charger", "Sim", ]
+shopping_list[:3] = ["Phone", "Charger", "Sim", ]
 print(shopping_list)
 
 # REMOVING ELEMENT FROM A LIST

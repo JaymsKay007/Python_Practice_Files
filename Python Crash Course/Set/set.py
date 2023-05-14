@@ -6,16 +6,17 @@
 4. A set mutable.
 5. Can be used to perform mathematical set operations.
 """
+
 # INDEXING OR SLICING DOESN'T WORK IN SET()
 
 names = {"james", "binta", "tina", "rashida", "mohamed"}
 print(type(names))
 
-my_set = {1, 2, 2, 3, 3, "hello", (7, 8, 7, 8, 9)}
+my_set = {1, 2, 3, "hello", (7, 8, 7, 8, 9)}
 print(my_set)
 print(type(my_set))
 
-my_set1 = set([2, 4, 6, 8])
+my_set1 = {2, 4, 6, 8}
 print(my_set1)
 
 # ADDING TO A SET{}

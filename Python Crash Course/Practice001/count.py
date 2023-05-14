@@ -27,9 +27,6 @@ print("Here are the last 5 players in my team:")
 for player in players[-5:]:
     print(player.title())
 
-# Copying list
-new_players = []
 print("\nHere are the first 5 players transferred to my team:")
-for player in players[:5]:
-    new_players.append(player.title())
+new_players = [player.title() for player in players[:5]]
 print(new_players)

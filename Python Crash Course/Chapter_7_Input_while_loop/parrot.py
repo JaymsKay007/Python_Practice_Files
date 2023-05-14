@@ -1,6 +1,7 @@
-prompt = "\nTell me something and I'll repeat it back to you: "
-prompt += "\nEnter 'quit' to end the program. "
-
+prompt = (
+    "\nTell me something and I'll repeat it back to you: "
+    + "\nEnter 'quit' to end the program. "
+)
 # msg = ""
 # while msg != "quit":
 #     msg = input(prompt)
