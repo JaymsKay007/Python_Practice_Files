@@ -29,10 +29,11 @@ travel_log = [
 
 
 def add_new_country(countries_visited, times_visited, cities_visited):
-    new_country = {}
-    new_country["countries"] = countries_visited
-    new_country["visits"] = times_visited
-    new_country["cities"] = cities_visited
+    new_country = {
+        "countries": countries_visited,
+        "visits": times_visited,
+        "cities": cities_visited,
+    }
     travel_log.append(new_country)
 
 

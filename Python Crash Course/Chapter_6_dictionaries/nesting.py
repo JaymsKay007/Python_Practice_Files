@@ -10,14 +10,14 @@ aliens = [alien0, alien1, alien2]
 for alien in aliens:
     print(alien)
 """
+
 # Create a list with 30 aliens.
 # Make an empty list for storing aliens
 aliens = []
 # Make 30 gren aliens
-for alien_number in range(30):
+for _ in range(30):
     new_aliens = {"color": "green", "points": 5, "speed": "slow"}
     aliens.append(new_aliens)
-    # print(len(aliens))
 # Show the first 5 aliens.
 print("Show the first 5 aliens.")
 for alien in aliens[:5]:

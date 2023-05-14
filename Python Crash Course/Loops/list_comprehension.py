@@ -1,12 +1,4 @@
-evens = []
-# for x in range(31):
-#     if x % 2 == 0:
-#         evens.append(x)
-# print(evens)
-
-# OR
-for x in range(11):
-    evens.append(x * 2)
+evens = [x * 2 for x in range(11)]
 print(evens)
 
 # OR LIST COMPREHENSION

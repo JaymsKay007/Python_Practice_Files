@@ -25,8 +25,7 @@ shirt_choice = input("What's your shirt size? ")
 
 
 def shirt(size="large", message="I love Python"):
-    if shirt_choice == "small" or "extra small":
-        print(f"Dear valued customer, you choose '{shirt_choice}' shirt with the message 'Hello little one'.")
+    print(f"Dear valued customer, you choose '{shirt_choice}' shirt with the message 'Hello little one'.")
 
 
 shirt("small")

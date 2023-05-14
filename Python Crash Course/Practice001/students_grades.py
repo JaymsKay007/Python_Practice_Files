@@ -11,6 +11,7 @@ Score 81 - 90: Grades = "Exceeds expectation"
 Score 71 - 80: Grades = "Acceptable"
 Score 70 or lower: Grades = "Fail"
 """
+
 student_scores = {
     "Harry": 81,
     "Ron": 78,
@@ -24,8 +25,7 @@ student_scores = {
 student_grades = {}
 
 # TODO-2: Write your code below to add the grades to student_grades.👇
-for students in student_scores:
-    scores = student_scores[students]
+for students, scores in student_scores.items():
     if scores > 90:
         student_grades[students] = "Outstanding"
     elif scores > 80:

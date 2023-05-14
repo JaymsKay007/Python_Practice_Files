@@ -14,7 +14,7 @@ user0 = {
 
 # This loop tru the key in a dictionary
 print("These are the Keys in the dictionary.")
-for name in user0.keys():
+for name in user0:
     print(name.title())
 
 # This loop tru the value in a dictionary

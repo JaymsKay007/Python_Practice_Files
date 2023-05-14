@@ -5,7 +5,7 @@ for num in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
 print("This is the code after the for loop.")
 #
 # BREAK
-for num in range(1, 3):
+for _ in range(1, 3):
     for letter in "Kingdom":
         if letter == "d":
             break
@@ -13,7 +13,7 @@ for num in range(1, 3):
     print("___")
 
 # CONTINUE
-for num in range(1, 2):
+for _ in range(1, 2):
     for letter in "Jaymes":
         if letter == "e":
             print("letter equal 'e' ")

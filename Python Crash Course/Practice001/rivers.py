@@ -7,6 +7,7 @@ through Egypt.
 • Use a loop to print the name of each country included in the dictionary.
 """
 
+
 rivers = {
     "rokel": "sierra leone",
     "victoria falls": "kenya",
@@ -17,7 +18,7 @@ for river, country in rivers.items():
     print(f"The {river.title()} river runs through {country.title()}.")
 
 # • Use a loop to print the name of each river included in the dictionary.
-for river in rivers.keys():
+for river in rivers:
     print(river.title())
 
 # • Use a loop to print the name of each country included in the dictionary.

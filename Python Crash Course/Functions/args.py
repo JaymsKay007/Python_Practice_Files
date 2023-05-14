@@ -11,10 +11,7 @@ game_players("james", "mohamed", "joel")
 
 # """This function adds numbers and give the total sum"""
 def add_machine(*numbers):
-    total = 0
-    for num in numbers:
-        total += num
-    return total
+    return sum(numbers)
 
 
 final_sum = add_machine(125, 10, 57, 54)

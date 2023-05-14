@@ -1,6 +1,4 @@
-usernames = ["james", "binta", "rashida", "tina"]
-
-usernames.append("mohamed")
+usernames = ["james", "binta", "rashida", "tina", "mohamed"]
 
 
 def greet_users(names):

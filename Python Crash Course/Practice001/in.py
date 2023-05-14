@@ -21,10 +21,11 @@ city_pass = input("How many cities have you visited in the country?: ")
 
 
 def add_new_country(countries_visited=contri, times_visited=waka_tem, cities_visited=city_pass):
-    new_country = {}
-    new_country["countries"] = countries_visited
-    new_country["visits"] = times_visited
-    new_country["cities"] = cities_visited
+    new_country = {
+        "countries": countries_visited,
+        "visits": times_visited,
+        "cities": cities_visited,
+    }
     travel_log.append(new_country)
 
 
