@@ -13,3 +13,6 @@ for name in names:
     if name == "Jamestina":
         continue
     print(name)
+
+name=input("What's your name?")
+age=int(input("How old are you?"))
