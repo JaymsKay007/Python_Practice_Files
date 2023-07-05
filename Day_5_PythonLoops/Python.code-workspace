@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../WEB-DEVELOPMENT"
+		}
+	],
+	"settings": {
+		"editor.tabCompletion": "on",
+		"diffEditor.codeLens": true
+	}
+}
