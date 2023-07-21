@@ -6,7 +6,7 @@ This game will:
 3. Produce game logic using conditional statements:
 	-If guess is too high, the player should get a message.
 	-If guess is too low, the player should get a message.
-	-If guess is too correct, the player should get a message.
+	-If guess is  correct, the player should get a message.
 4. A player should only get 5 guesses. Once the guess run out, the games is over
 5. A player should get asked if they want to play again, if Yes, replay the game, if No,
 break out of the game.
@@ -34,12 +34,14 @@ def game_logic():
 		# Out of range guesses.
 		elif guess > 100:
 			print(f"Wrong number, {guess} is out of range.")
+
 		elif guess < 0:
 			print("Wrong number, can't accept negative number.")
 
 		elif guess > num:
 			tries -= 1
 			print(f"You guessed too high. Try a lower number. You've {tries} chance left.")
+			
 		else:
 			tries -= 1
 			print(f"You guessed too low. Try a higher number. You've {tries} chance left.")
