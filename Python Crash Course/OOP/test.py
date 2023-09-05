@@ -1,14 +1,39 @@
-class Person:
-	def __init__(self, name, age, wife):
+class Dog:
+	def __init__(self, name, age):
 		self.name = name
 		self.age = age
-		self.wife = wife
 
-	def family(self):
-		return f"Mr.{my_info.name} is {my_info.age}yrs old and he's married to Madam {my_info.wife} " \
-		       f"and they've 3 children together."
+	def __str__(self):
+		return f"{self.name} is {self.age}yrs old."
+
+	def speak(self, sound):
+		return f"{self.name} says {sound}"
 
 
-my_info = Person("James", 31, "Binta")
-print(my_info.name)
-print(my_info.family())
+class ShihTzu(Dog):
+	def speak(self, sound="Shih woof"):
+		return f"{self.name} says {sound}"
+
+
+class Dachshund(Dog):
+	def speak(self, sound="woof"):
+		return f"{self.name} says {sound}"
+
+
+class Poodle(Dog):
+	def speak(self, sound="woo woo"):
+		return f"{self.name} says {sound}"
+
+
+class Frug(Dog):
+	def speak(self, sound="fruuu"):
+		return f"{self.name} says {sound}"
+
+
+dolly = ShihTzu("Dolly", 7)
+flo = Dachshund("Dolly", 9)
+sassy = Poodle("Sassy", 3)
+betty = Frug("Betty", 1)
+
+print(dolly.speak())
+print(flo.speak())
